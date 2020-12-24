@@ -14,7 +14,7 @@ class MyDocument extends Document {
           <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" 
                 rel="stylesheet"/>
         </Head>
-        <body>
+        <body className="bg-gray-50">
           <Main />
           <NextScript />
         </body>
