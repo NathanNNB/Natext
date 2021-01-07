@@ -26,15 +26,15 @@ const Header: React.FC = () => {
 
             <nav className ="hidden sm:block space-x-8 md:block space-x-8">
                 <Link href="/" >
-                    <a className="tracking-wide hover:text-gray-300 text-lg font-medium " >Home</a>
+                    <a className="tracking-wide hover:text-yellow-500 text-lg font-medium " >Home</a>
                 </Link>
                 
                 <Link href="/">
-                    <a className="tracking-wide hover:text-gray-300 text-lg font-medium" >About</a>
+                    <a className="tracking-wide hover:text-yellow-500 text-lg font-medium" >About</a>
                 </Link>
                 
                 <Link href="/">
-                    <a className="tracking-wide hover:text-gray-300 text-lg font-medium " >Contact</a>
+                    <a className="tracking-wide hover:text-yellow-500 text-lg font-medium " >Contact</a>
                     
                 </Link>
                 
