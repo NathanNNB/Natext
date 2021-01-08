@@ -26,15 +26,15 @@ const Header: React.FC = () => {
 
             <nav className ="hidden sm:block space-x-8 md:block space-x-8">
                 <Link href="/" >
-                    <a className="tracking-wide hover:text-yellow-500 text-lg font-medium " >Home</a>
+                    <a className="tracking-wide hover:text-blue-500 text-lg font-semibold " >Home</a>
                 </Link>
                 
                 <Link href="/">
-                    <a className="tracking-wide hover:text-yellow-500 text-lg font-medium" >About</a>
+                    <a className="tracking-wide hover:text-blue-500 text-lg font-semibold" >About</a>
                 </Link>
                 
                 <Link href="/">
-                    <a className="tracking-wide hover:text-yellow-500 text-lg font-medium " >Contact</a>
+                    <a className="tracking-wide hover:text-blue-500 text-lg font-semibold " >Contact</a>
                     
                 </Link>
                 
@@ -53,15 +53,15 @@ const Header: React.FC = () => {
         </div>
         <div  className={click? "px-4 pt-2 pb-4  border-gray-500 border-b-2 block sm:hidden " : "hidden"}>
             <Link href="/" >
-                <a className={click? "text-center block tracking-wide py-1 hover:text-gray-300 rounded hover:bg-gray-700 text-lg font-semibold visible sm:hidden ":"hidden"}>Home</a>
+                <a className={click? "text-center block tracking-wide py-1 hover:text-gray-100 rounded hover:bg-gray-700 text-lg font-semibold visible sm:hidden ":"hidden"}>Home</a>
             </Link>
             
             <Link href="/">
-                <a className={click? "text-center block tracking-wide py-1 hover:text-gray-300 rounded hover:bg-gray-700 text-lg font-semibold visible sm:hidden ":"hidden"}>About</a>
+                <a className={click? "text-center block tracking-wide py-1 hover:text-gray-100 rounded hover:bg-gray-700 text-lg font-semibold visible sm:hidden ":"hidden"}>About</a>
             </Link>
             
             <Link href="/">
-                <a className={click? "text-center block tracking-wide py-1 hover:text-gray-300 rounded hover:bg-gray-700 text-lg font-semibold visible sm:hidden":"hidden"} >Contact</a>
+                <a className={click? "text-center block tracking-wide py-1 hover:text-gray-100 rounded hover:bg-gray-700 text-lg font-semibold visible sm:hidden":"hidden"} >Contact</a>
                 
             </Link>
         </div>
