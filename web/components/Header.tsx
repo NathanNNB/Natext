@@ -22,6 +22,7 @@ const Header: React.FC = () => {
                         className="rounded-full flex " 
                         />
                 </a>
+                
             </Link>
 
             <nav className ="hidden sm:block space-x-8 md:block space-x-8">
